@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "date": "2026-10-20",
+    "from": "billing@acmesupplies.com",
+    "from_name": "Acme Supplies Ltd",
+    "subject": "Invoice INV-2026-1042 - October services",
+    "body": "Hello,\n\nPlease find attached invoice INV-2026-1042 for $4,850.00 for managed IT services in October 2026.\n\nAmount due: $4,850.00\nDue date: 19 November 2026 (2026-11-19)\n\nPlease arrange payment by the due date.\n\nAccounts team\nAcme Supplies Ltd",
+    "attachment": "inv-2026-1042.pdf"
+  },
+  {
+    "id": "2",
+    "date": "2026-10-22",
+    "from": "accounts@globexcorp.com",
+    "from_name": "Globex Corp",
+    "subject": "Invoice INV-G-881 - Cloud hosting October",
+    "body": "Hello,\n\nPlease find attached invoice INV-G-881 for $1,150.00 for cloud hosting in October 2026.\n\nAmount due: $1,150.00\nDue date: 21 November 2026 (2026-11-21)\n\nKind regards,\nGlobex Corp Accounts",
+    "attachment": "inv-g-881.pdf"
+  },
+  {
+    "id": "3",
+    "date": "2026-09-18",
+    "from": "billing@acmesupplies.com",
+    "from_name": "Acme Supplies Ltd",
+    "subject": "Invoice INV-2026-1031 - September services",
+    "body": "Hello,\n\nPlease find attached invoice INV-2026-1031 for $3,920.50 for managed IT services in September 2026.\n\nAmount due: $3,920.50\nDue date: 18 October 2026 (2026-10-18)\n\nAccounts team\nAcme Supplies Ltd",
+    "attachment": "inv-2026-1031.pdf"
+  },
+  {
+    "id": "4",
+    "date": "2026-10-15",
+    "from": "support@acmesupplies.com",
+    "from_name": "Acme Supplies Ltd",
+    "subject": "Reminder: updated payment terms",
+    "body": "Hello,\n\nA quick note that our payment terms are now net 30 days from the invoice date. No action needed on existing invoices.\n\nAcme Supplies Ltd Support",
+    "attachment": null
+  },
+  {
+    "id": "5",
+    "date": "2026-10-08",
+    "from": "hello@globexcorp.com",
+    "from_name": "Globex Corp",
+    "subject": "Welcome to the Globex vendor portal",
+    "body": "Hello,\n\nWelcome to the Globex vendor portal. You can view invoices and payment history once your account is activated.\n\nGlobex Corp",
+    "attachment": null
+  }
+]
