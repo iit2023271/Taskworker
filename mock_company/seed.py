@@ -171,7 +171,10 @@ def make_invoice_pdf(inv: dict, path: Path) -> None:
         if line == "":
             pdf.ln(8)
         else:
-            pdf.multi_cell(w=pdf.epw, h=8, text=line)
+            # new_x="LMARGIN": after a multi_cell fpdf2 leaves the cursor at
+            # the RIGHT end of the cell; without this every line after the
+            # first is drawn starting at the right margin, off the page.
+            pdf.multi_cell(w=pdf.epw, h=8, text=line, new_x="LMARGIN")
     pdf.output(str(path))
 
 
